@@ -1,6 +1,8 @@
 @Echo Off
 ECHO -
-ECHO Input Username to find last logon
+ECHO ::Input username to find last logon::
+ECHO ::
+ECHO ::Follow username with "/domain" for domain users
 ECHO -
 Set /P UName= Username:
 
